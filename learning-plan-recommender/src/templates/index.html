@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Plan Recommender</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learning Plan Recommender</h1>
+        <form id="learning-plan-form">
+            <label for="academic-background">Academic Background:</label>
+            <textarea id="academic-background" name="academic-background" required></textarea>
+            
+            <label for="target-course">Target Course:</label>
+            <input type="text" id="target-course" name="target-course" value="Deep Learning" required>
+            
+            <button type="submit">Generate Learning Plan</button>
+        </form>
+        <div id="recommendation-output"></div>
+    </div>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
