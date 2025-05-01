@@ -38,7 +38,8 @@ def main():
     
     # Generate learning plan
     print("\nGenerating your personalized learning plan...")
-    learning_plan = plan_generator.generate_plan(student, target_course, course_db)
+    # learning_plan = plan_generator.generate_plan(student, target_course, course_db)
+    learning_plan = plan_generator_rag.generate_plan(student, target_course, course_db)
     
     # Display the learning plan
     print("\n===== Your Personalized Learning Plan =====\n")
