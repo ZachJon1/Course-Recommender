@@ -30,8 +30,8 @@ learning-plan-recommender
 │   └── test_plan_generator.py # Tests for the plan_generator module
 ├── config                    # Configuration settings
 │   └── config.py             # API keys and constants
-├── requirements.txt          # Python dependencies
-├── .env.example              # Example environment variables
+├── requirements.yml          # Python dependencies
+├── .env                      # Example environment variables
 └── README.md                 # Project documentation
 ```
 
@@ -45,11 +45,11 @@ learning-plan-recommender
 
 2. **Install dependencies:**
    ```
-   pip install -r requirements.txt
+   conda env create -f requirements.yml
    ```
 
 3. **Set up environment variables:**
-   Copy `.env.example` to `.env` and fill in the required values.
+   Connect to llm using `.env` (talk to me for a test run).
 
 4. **Run the application:**
    ```
@@ -58,8 +58,8 @@ learning-plan-recommender
 
 ## Usage
 
-- Open your web browser and navigate to `http://localhost:5000`.
-- Input your academic background and the target course (e.g., "Deep Learning").
+- ~~Open your web browser and navigate to `http://localhost:5000`.~~
+- Input your academic background details and the target course (e.g., "Deep Learning").
 - Submit the form to receive a personalized learning plan.
 
 ## Contributing
@@ -69,3 +69,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgments
+- [William Panlener](https://github.com/qwestduck) for the [web scapper](https://github.com/qwestduck/abet-catalog-generator) that scrapes the course information from the university website.
