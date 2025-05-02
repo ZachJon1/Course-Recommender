@@ -1,10 +1,22 @@
 # Learning Plan Recommender
 
-This project is designed to help students generate personalized learning plans based on their academic background and target courses, specifically focusing on "Deep Learning."
+This project is designed to help students generate personalized learning plans based on their academic background and target courses, specifically focusing on engineering courses. It can be utilized by all students beyond engineering, howevver, the current implemented RAG is for engineering courses.
+
 
 ## Project Structure
 
 ```
+
+LLM-Local-Deployment
+├── assets
+│   ---
+
+
+backend
+├── node_modules            # Node.js dependencies
+
+engineering-course-catalog
+|── engineering_catalog.pdf
 learning-plan-recommender
 ├── src
 │   ├── app.py                # Main entry point of the application
