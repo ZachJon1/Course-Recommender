@@ -11,7 +11,6 @@ LLM-Local-Deployment
 ├── assets
 │   ---
 
-
 backend
 ├── node_modules            # Node.js dependencies
 
