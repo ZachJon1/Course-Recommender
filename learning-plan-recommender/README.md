@@ -7,7 +7,6 @@ This project is designed to help students generate personalized learning plans b
 ```
 learning-plan-recommender
 ├── src
-│   ├── app.py                # Main entry point of the application
 │   ├── recommender           # Module for generating learning plans
 │   │   ├── __init__.py
 │   │   ├── llm_client.py     # Interacts with the local LLM API

@@ -5,6 +5,7 @@ This project is designed to help students generate personalized learning plans b
 
 ## Project Structure
 
+LLM-Local-Deployment
 ```
 
 LLM-Local-Deployment
@@ -17,8 +18,8 @@ backend
 engineering-course-catalog
 |── engineering_catalog.pdf
 learning-plan-recommender
+│   ├── app.py               # Main entry point of the application
 ├── src
-│   ├── app.py                # Main entry point of the application
 │   ├── recommender           # Module for generating learning plans
 │   │   ├── __init__.py
 │   │   ├── llm_client.py     # Interacts with the local LLM API
