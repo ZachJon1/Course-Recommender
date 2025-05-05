@@ -64,8 +64,11 @@ learning-plan-recommender
 
 4. **Run the application:**
    ```
-   python src/app.py
+   python app.py
    ```
+
+5. **Sample run gif:**
+   ![LLM Course Recommender](llm-course-recommender.gif)
 
 ## Usage
 

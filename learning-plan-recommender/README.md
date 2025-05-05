@@ -53,7 +53,7 @@ learning-plan-recommender
 
 4. **Run the application:**
    ```
-   python src/app.py
+   python app.py
    ```
 
 ## Usage
